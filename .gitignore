@@ -1,5 +1,4 @@
 # Default ignored files
-# Default ignored files
 # region custom
 **/*secrets*.yml
 **/*secrets*.properties
@@ -81,3 +80,4 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
+
