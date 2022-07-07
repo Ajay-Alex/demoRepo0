@@ -11,16 +11,11 @@ fun main(){
     twoSum(nums,6)
 }
 fun twoSum(nums: Array<Int>,target: Int){
-    var ans= IntArray(2)
-    print(nums)
-    for(i in 0 until nums.size-2){
-        for(j in i+1 until nums.size-1){
-            if(i+j==target) {
+    for(i in 0 until nums.size-1){
+        for(j in i+1 until nums.size){
+            if((nums[i]+nums[j])==target) {
                 println("[$i,$j]")
-                ans[0]=i
-                ans[1]=j
-                print(ans)
-                break
+                return
             }
         }
     }
