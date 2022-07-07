@@ -7,5 +7,15 @@ You can return the answer in any order.
 */
 
 fun twoSum(nums: Array<Int>,target: Int){
+    return 0
+}
+
+fun main() {
+    var arr = IntArray(5) {i -> i+3}
+
+    var target = 10
+
+    println(twoSum(arr, target))
+
 
 }
