@@ -11,6 +11,7 @@ fun main(){
     twoSum(nums,6)
 }
 fun twoSum(nums: Array<Int>,target: Int){
+<<<<<<< HEAD
     var ans= IntArray(2)
     print(nums)
     for(i in 0 until nums.size-2){
@@ -22,7 +23,6 @@ fun twoSum(nums: Array<Int>,target: Int){
                 print(ans)
                 break
             }
-
         }
     }
     print("No ans")
