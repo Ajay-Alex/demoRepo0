@@ -5,7 +5,9 @@ You may assume that each input would have exactly one solution, and you may not 
 
 You can return the answer in any order.
 */
-
+fun main(){
+    var nums= arrayOf(3,2,4)
+}
 fun twoSum(nums: Array<Int>,target: Int){
 
 }
