@@ -7,6 +7,8 @@ fun main(){
     println(waterFilter2(dirtyLevel))
     println(updateDirty(dirtyLevel,waterFilter2))
     println(updateDirty(dirtyLevel,::increaseDirty))
+    dirtyLevel = 19;
+    println(updateDirty(dirtyLevel) { dirtyLevel -> dirtyLevel.toFloat()*2.3f})
 }
 
 fun updateDirty(dirty: Int, operation: (Int) -> Float): Float {
