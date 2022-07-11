@@ -1,9 +1,9 @@
 package OopDemo.src.main.kotlin
 
-import OopDemo.src.example.myapp.Aquarium
-import OopDemo.src.example.myapp.Plecostomus
-import OopDemo.src.example.myapp.Shark
-import OopDemo.src.example.myapp.TowerTank
+import OopDemo.src.example.myapp.Aquarium.Aquarium
+import OopDemo.src.example.myapp.Aquarium.Plecostomus
+import OopDemo.src.example.myapp.Aquarium.Shark
+import OopDemo.src.example.myapp.Aquarium.TowerTank
 
 fun main() {
     //buildAquarium()

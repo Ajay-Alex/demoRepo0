@@ -1,4 +1,4 @@
-package OopDemo.src.example.myapp
+package OopDemo.src.example.myapp.Aquarium
 
 open class Aquarium(var length: Int = 0, var width: Int = 0, open var height: Int = 0) {
     init {
