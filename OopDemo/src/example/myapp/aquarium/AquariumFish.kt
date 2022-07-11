@@ -1,4 +1,4 @@
-package OopDemo.src.example.myapp.Aquarium
+package OopDemo.src.example.myapp.aquarium
 
 interface FishColour{
     val color: String

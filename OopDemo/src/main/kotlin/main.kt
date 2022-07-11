@@ -1,13 +1,15 @@
 package OopDemo.src.main.kotlin
 
-import OopDemo.src.example.myapp.Aquarium.Aquarium
-import OopDemo.src.example.myapp.Aquarium.Plecostomus
-import OopDemo.src.example.myapp.Aquarium.Shark
-import OopDemo.src.example.myapp.Aquarium.TowerTank
+import OopDemo.src.example.myapp.aquarium.Aquarium
+import OopDemo.src.example.myapp.aquarium.Plecostomus
+import OopDemo.src.example.myapp.aquarium.Shark
+import OopDemo.src.example.myapp.aquarium.TowerTank
+import OopDemo.src.example.myapp.decor.makeDecorations
 
 fun main() {
     //buildAquarium()
-    makeFish()
+    //makeFish()
+    makeDecorations()
 }
 
 fun buildAquarium(){

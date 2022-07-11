@@ -1,6 +1,5 @@
-package OopDemo.src.example.myapp.Aquarium
+package OopDemo.src.example.myapp.aquarium
 
-import OopDemo.src.example.myapp.Aquarium.Aquarium
 import java.lang.Math.PI
 
 class TowerTank(override var height:Int, var diameter:Int): Aquarium(diameter,diameter,height) {

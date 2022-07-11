@@ -1,4 +1,4 @@
-package OopDemo.src.example.myapp.Aquarium
+package OopDemo.src.example.myapp.aquarium
 
 class Plecostomus(fishColour: FishColour = GoldColour):  FishAction,
     FishColour by fishColour {
